@@ -1,5 +1,7 @@
 x=int(input("enter the number:"))
 if x%2==0:
     print("even")
-else:
+elif x%2!=0:
     print("odd")
+else:
+    print("invalid number")
